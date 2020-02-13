@@ -26,7 +26,8 @@ public class Group {
         String name = scanner.nextLine();
         System.out.println("Instruktor prowadzący: ");
         Instructor instructor = Instructor.createInstructor();
-        Student[] students = createNewStudent();
+        Student[] students = studentsArray();
+        return new Group(name, instructor, students);
 
     }
 
