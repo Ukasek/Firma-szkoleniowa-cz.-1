@@ -20,7 +20,7 @@ public class Student extends Person {
         return new Student(firstName, lastName, id);
     }
 
-    String getInfo() {
+    String getInfoStudent() {
         return getFirstName() + " " + getLastName() + " " + id;
     }
 }

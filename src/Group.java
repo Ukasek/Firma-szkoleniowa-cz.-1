@@ -31,7 +31,7 @@ public class Group {
 
     }
 
-    public String getInfo() {
+    public String getInfoGroup() {
         return name + ", " + instructor + ", " + instructor;
     }
 

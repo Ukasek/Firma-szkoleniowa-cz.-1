@@ -20,7 +20,7 @@ public class Instructor extends Person {
         return new Instructor(firstName, lastName, numbOfClasses);
     }
 
-    String getInfo() {
+    String getInfoInstructor() {
         return getFirstName() + " " + getLastName() + " " + numbOfClasses;
     }
 }
