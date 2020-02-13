@@ -12,7 +12,7 @@ public class Group {
 
     }
 
-    public Student[] studentsArray() {
+    public static Student[] studentsArray() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Liczba uczniów: ");
         int amount = scanner.nextInt();
@@ -20,7 +20,7 @@ public class Group {
         return studentsArray;
     }
 
-    public Group createGroup() {
+    public static Group createGroup() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nazwa grupy: ");
         String name = scanner.nextLine();
